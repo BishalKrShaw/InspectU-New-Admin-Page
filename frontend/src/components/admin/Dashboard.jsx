@@ -3,6 +3,7 @@ import React from "react";
 import "./Dashboard.css";
 import Highlights from "./Highlights";
 import LiveUserList from "./LiveUserContainer";
+import ExamChart from "./ExamChart";
 
 const Dashboard = () => {
   return (
@@ -32,7 +33,9 @@ const Dashboard = () => {
         <div id="list">
           <LiveUserList />
         </div>
-        <div id="graphs"></div>
+        <div id="graphs">
+          <ExamChart/>
+        </div>
       </section>
     </>
   );
