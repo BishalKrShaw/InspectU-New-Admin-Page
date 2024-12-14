@@ -1,0 +1,35 @@
+/* Employee stats container */
+.employees-stats {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: var(--icon_text_color);
+  margin-block: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Hover effect for each employee entry */
+.employees-stats:hover {
+  color: #fff;
+  background-color: #0a0a0e;
+}
+
+/* Alert styling */
+.alert span {
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+
+.goodAlert {
+  background-color: #ffbf5f9d;
+}
+
+.badAlert {
+  background-color: rgba(255, 49, 49, 0.836);
+  color: white;
+}

@@ -2,6 +2,7 @@
 import React from "react";
 import "./Dashboard.css";
 import Highlights from "./Highlights";
+import LiveUserList from "./LiveUserContainer";
 
 const Dashboard = () => {
   return (
@@ -28,7 +29,9 @@ const Dashboard = () => {
 
       {/* list-graphs */}
       <section id="list-graphs-div">
-        <div id="list"></div>
+        <div id="list">
+          <LiveUserList />
+        </div>
         <div id="graphs"></div>
       </section>
     </>

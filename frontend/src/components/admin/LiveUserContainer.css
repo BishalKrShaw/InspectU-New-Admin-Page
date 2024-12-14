@@ -1,0 +1,52 @@
+#searchbar {
+  margin-bottom: 40px;
+  background-color: #0b0b0f;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 5px 15px;
+  border-radius: 50px;
+  width: 50%;
+}
+
+#searchbar span {
+  color: var(--dull_text);
+}
+
+#searchbar input {
+  background-color: #0b0b0f;
+  border-radius: 50px;
+  width: 100%;
+  font-size: 0.9rem;
+  color: var(--icon_text_color);
+}
+
+#searchbar input::placeholder {
+  color: #4b4b4a;
+  font-size: 0.9rem;
+}
+
+/* Stats Headings */
+.stats-headings {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px;
+  border-bottom: 1px dashed #888888;
+}
+
+.stats-headings div {
+  font-size: 0.8rem;
+  color: #4b4b4a;
+}
+
+/* Scrollable list container */
+.scrollable-list {
+  max-height: 300px;  /* Set fixed height for the scrollable area */
+  overflow-y: auto;   /* Scrollbar appears when content overflows */
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 10px;
+}
