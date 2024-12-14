@@ -1,3 +1,47 @@
+#admin-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  background-color: var(--dark_box_bg);
+}
+
+#admin-nav h1 {
+  font-size: 1.5rem;
+}
+
+#admin-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.admin-img-div {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.admin-img-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.admin-text-div #username {
+  font-size: 1rem;
+  color: var(--icon_text_color);
+}
+
+.admin-text-div #role {
+  font-size: 0.8rem;
+  color: var(--dull_text);
+}
+
 #overview-div {
   padding: 20px;
   display: flex;

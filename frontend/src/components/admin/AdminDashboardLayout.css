@@ -16,7 +16,7 @@
   left: 0;         /* Aligns it to the left of the viewport */
   width: 240px;    /* Sidebar width */
   height: 100vh;   /* Full viewport height */
-  background-color: var(--dark_box_bg);
+  background-color: #0f0f14;
   padding: 20px;
   overflow-y: auto; /* Add scroll if sidebar content overflows */
   z-index: 1000;   /* Ensures the sidebar is above other content */

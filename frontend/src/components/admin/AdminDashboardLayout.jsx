@@ -23,7 +23,6 @@ const AdminDashboardLayout = () => {
 
       {/* Main Content */}
       <main className="main-content">
-        <div id="admin-nav"></div>
         <Outlet /> {/* This will render the content based on the route */}
       </main>
     </div>

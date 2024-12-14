@@ -1,0 +1,35 @@
+#highlight {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+
+#highlight-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #2a2a3b, #111117);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#highlight-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 5px;
+}
+
+#highlight-text p {
+  font-size: 0.8rem;
+  color: var(--icon_text_color);
+}
+
+#highlight-text span {
+  font-size: 1.7rem;
+  color: var(--dull_text);
+}
