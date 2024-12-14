@@ -20,10 +20,10 @@ const Dashboard = () => {
       </div>
       {/* Overview */}
       <setion id="overview-div">
-        <Highlights icon="group" text="Live Users"/>
-        <Highlights icon="warning" text="Live Alerts"/>
-        <Highlights icon="assignment" text="Total Exam Conducted"/>
-        <Highlights icon="insert_chart" text="Reports"/>
+        <Highlights icon="group" text="Live Users" />
+        <Highlights icon="warning" text="Live Alerts" style={{ background: 'linear-gradient(to right, #ff6b6b, #ffa726)'}} />
+        <Highlights icon="assignment" text="Total Exam Conducted" style={{ background: "linear-gradient(to right, #4caf50, #ffeb3b)", color: "white" }} />
+        <Highlights icon="insert_chart" text="Reports" style={{ background: "linear-gradient(to right, #2196f3, #9c27b0)"}} />
       </setion>
 
       {/* list-graphs */}
