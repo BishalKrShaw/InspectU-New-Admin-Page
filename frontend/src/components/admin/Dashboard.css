@@ -1,0 +1,35 @@
+#overview-div {
+  padding: 20px;
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+
+.overview {
+  flex: 1;
+  height: 100px;
+  border-radius: 10px;
+  background-color: var(--dark_box_bg);
+}
+
+#list-graphs-div {
+  padding: 0 20px 20px 20px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+}
+
+#list {
+  width: 55%;
+  height: 500px;
+  border-radius: 10px;
+  background-color: var(--dark_box_bg);
+}
+
+#graphs {
+  width: 45%;
+  height: 300px;
+  border-radius: 10px;
+  background-color: var(--dark_box_bg);
+}

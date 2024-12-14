@@ -1,0 +1,35 @@
+#admin {
+  background-color: var(--dark_body_bg);
+  color: var(--white_text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: var(--dark_box_bg);
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+button {
+  background-color: var(--hover_nav);
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  padding: 10px;
+  cursor: pointer;
+}

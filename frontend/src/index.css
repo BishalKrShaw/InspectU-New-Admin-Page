@@ -1,0 +1,35 @@
+:root {
+  --dark_body_bg: #171721;
+  --dark_box_bg: #111117;
+  --hover_nav: #0E77D8;
+  --white_text: #fff;
+  --icon_text_color: #ACACBF;
+  --dull_text: #626786;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--dark_body_bg);
+}
+
+body {
+  color: var(--white_text);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--dark_body_bg);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: var(--dark_box_bg);
+}
