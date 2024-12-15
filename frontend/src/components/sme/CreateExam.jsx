@@ -6,7 +6,7 @@ function CreateExam() {
   return (
     <>
       <div id="sme-nav">
-        <h1>Dashboard</h1>
+        <h1>SME</h1>
         <div id="sme-profile">
           <div className="sme-img-div">
             <img src="/profile.jpg" alt="" />

@@ -11,7 +11,7 @@ const SMELayout = () => {
         <p className="logo">InspectU</p>
         <nav>
           <NavLink to="/sme/create-exam" className="nav-link">
-            <span class="material-symbols-outlined">add_circle</span>
+            <span className="material-symbols-outlined">add_circle</span>
             Create Exam
           </NavLink>
         </nav>

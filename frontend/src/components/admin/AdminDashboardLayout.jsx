@@ -11,11 +11,11 @@ const AdminDashboardLayout = () => {
         <p className="logo">InspectU</p>
         <nav>
           <NavLink to="/admin/dashboard" className="nav-link">
-            <span class="material-symbols-outlined">dashboard</span>
+            <span className="material-symbols-outlined">dashboard</span>
             Dashboard
           </NavLink>
           <NavLink to="/admin/overview" className="nav-link">
-            <span class="material-symbols-outlined">overview</span>
+            <span className="material-symbols-outlined">overview</span>
             Overview
           </NavLink>
         </nav>
