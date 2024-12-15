@@ -1,0 +1,43 @@
+#sme-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  background-color: var(--dark_box_bg);
+}
+
+#sme-nav h1 {
+  font-size: 1.5rem;
+}
+
+#sme-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.sme-img-div {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.sme-img-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.sme-text-div #username {
+  font-size: 1rem;
+  color: var(--icon_text_color);
+}
+
+.sme-text-div #role {
+  font-size: 0.8rem;
+  color: var(--dull_text);
+}
