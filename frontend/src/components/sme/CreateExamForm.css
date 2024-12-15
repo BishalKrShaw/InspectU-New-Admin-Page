@@ -1,0 +1,72 @@
+.exam-div {
+  padding: 20px;
+}
+
+form {
+  padding: 20px;
+  background-color: var(--dark_box_bg);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+form input {
+  width: 100%;
+  background-color: var(--dark_body_bg);
+  width: 70%;
+}
+
+form label {
+  width: 150px;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* Make the icon white */
+  cursor: pointer; /* Add a pointer cursor */
+}
+
+.exam-div button {
+  background-color: var(--bright_color);
+  color: #0B0A08;
+  font-weight: 700;
+}
+
+.exam-history {
+  margin-top: 50px;
+}
+
+.exam-history ul {
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+.exam-history ul li {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--dark_box_bg);
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.exam-history ul li button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: transparent;
+}
+
+.exam-history ul li button span {
+  font-size: 1.1rem;
+  color: var(--bright_color);
+}

@@ -38,8 +38,8 @@
 
 .nav-link:hover,
 .nav-link.active {
-  background-color: var(--hover_nav);
-  color: white;
+  background-color: var(--bright_color);
+  color: #0B0A08;
 }
 
 .main-content {
